@@ -27,7 +27,7 @@
 $ git clone git@github.com:Huxpro/huxblog-boilerplate.git
 ```
 
-**[在这里预览模板 &rarr;](http://huangxuan.me/huxblog-boilerplate/)**
+**[在这里预览模板 &rarr;](http://fxm5547.com/huxblog-boilerplate/)**
 
 ## 各版本特性
 
@@ -116,7 +116,7 @@ tags:
 #### SideBar
 
 看右边:
-![](http://huangxuan.me/img/blog-sidebar.jpg)
+![](http://fxm5547.com/img/blog-sidebar.jpg)
 
 设置是在 `_config.yml`文件里面的`Sidebar settings`那块。
 ```
@@ -174,7 +174,7 @@ friends: [
 
 HTML5幻灯片的排版：
 
-![](http://huangxuan.me/img/blog-keynote.jpg)
+![](http://fxm5547.com/img/blog-keynote.jpg)
 
 这部分是用于占用html格式的幻灯片的，一般用到的是 Reveal.js, Impress.js, Slides, Prezi 等等.我认为一个现代化的博客怎么能少了放html幻灯的功能呢~
 
@@ -183,7 +183,7 @@ HTML5幻灯片的排版：
 ```
 ---
 layout:     keynote
-iframe:     "http://huangxuan.me/js-module-7day/"
+iframe:     "http://fxm5547.com/js-module-7day/"
 ---
 ```
 
@@ -221,7 +221,7 @@ ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
 
 # Google Analytics
 ga_track_id: 'UA-49627206-1'            # 你用Google账号去注册一个就会给你一个这样的id
-ga_domain: huangxuan.me			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
+ga_domain: fxm5547.com			# 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto。
 ```
 
 #### Customization

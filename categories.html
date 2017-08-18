@@ -1,7 +1,7 @@
 ---
-title: Tags
+title: Categories
 layout: default
-description: 所有标签
+description: 所有分类
 header-img: "img/tag-bg.jpg"
 ---
 
@@ -25,8 +25,8 @@ header-img: "img/tag-bg.jpg"
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
             <!-- 标签云 -->
 			<div id='tag_cloud' class="tags">
-				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
+				{% for cat in site.categories %}
+				<a href="#{{ cat[0] }}" title="{{ cat[0] }}" rel="{{ cat[1].size }}">{{ cat[0] }}</a>
 				{% endfor %}
 			</div>
 
@@ -37,12 +37,12 @@ header-img: "img/tag-bg.jpg"
             </blockquote>-->
 
             <!-- 标签列表 -->
-			{% for tag in site.tags %}
+			{% for cat in site.categories %}
 			<div class="one-tag-list">
-			  	<span class="fa fa-tag listing-seperator" id="{{ tag[0] }}">
-                    <span class="tag-text">{{ tag[0] }}</span>
+			  	<span class="fa fa-tag listing-seperator" id="{{ cat[0] }}">
+                    <span class="tag-text">{{ cat[0] }}</span>
                 </span>
-				{% for post in tag[1] %}
+				{% for post in cat[1] %}
 				  <!-- <li class="listing-item">
 				  <time datetime="{{ post.date | date:"%Y-%m-%d" }}">{{ post.date | date:"%Y-%m-%d" }}</time>
 				  <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
