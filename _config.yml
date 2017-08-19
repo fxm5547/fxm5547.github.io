@@ -46,7 +46,7 @@ kramdown:
 
 
 # Disqus settings
-disqus_username: fxm5547
+# disqus_username: fxm5547
 
 # Netease setttings
 netease_comment: false
