@@ -31,7 +31,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate]
+gems: [jekyll-paginate, jekyll-admin]
 
 
 
@@ -46,11 +46,17 @@ kramdown:
 
 
 # Disqus settings
-# disqus_username: fxm5547
+# disqus_username: fxm5547s-personal-site
 
 # Netease setttings
 netease_comment: false
 
+# gitment settings
+gitment:
+  owner: "fxm5547"
+  repo: "fxm5547.github.io"
+  client_id: "a2bc48d72597fecf347f"
+  client_secret: "6a69ec0afccadd26b426eb5a0cf166e5915172d5"
 
 
 # Analytics settings
@@ -87,5 +93,9 @@ friends: [
    {
         title: "Nobody's personal site",
         href: "http://bodyno.com"
+    },
+    {
+        title: "阮一峰的网络日志",
+        href: "http://www.ruanyifeng.com/blog/"
     }
 ]

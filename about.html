@@ -73,6 +73,14 @@ header-img: "img/about-bg.jpg"
 </div>
 <!-- disqus 评论框 end -->
 
+
+{% if site.gitment %}
+<!-- gitment 评论框 start -->
+<div id="gitment" ></div>
+<!-- gitment 评论框 end -->
+{% endif %}
+
+
 <!-- disqus 公共JS代码 start (一个网页只需插入一次) -->
 <script type="text/javascript">
     /* * * CONFIGURATION VARIABLES * * */
@@ -87,4 +95,24 @@ header-img: "img/about-bg.jpg"
     })();
 </script>
 <!-- disqus 公共JS代码 end -->
+{% endif %}
+
+
+{% if site.gitment %}
+<!-- gitment 公共JS代码 start (一个网页只需插入一次) -->
+<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+const gitment = new Gitment({
+  owner: "{{site.gitment.owner}}",
+  repo: "{{site.gitment.repo}}",
+  oauth: {
+    client_id: "{{site.gitment.client_id}}",
+    client_secret: "{{site.gitment.client_secret}}",
+  },
+})
+
+gitment.render('gitment')
+</script>
+<!-- gitment 公共JS代码 end -->
 {% endif %}
