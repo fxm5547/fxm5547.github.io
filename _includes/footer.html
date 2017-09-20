@@ -110,10 +110,12 @@
 <script src="/js/simple-jekyll-search.min.js"></script>
 
 <!-- Service Worker -->
+{% unless site.url contains 'localhost' %}
 {% if site.service-worker %}
 <script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
 <script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
 {% endif %}
+{% endunless %}
 
 <!-- async load function -->
 <script>
@@ -255,7 +257,7 @@
 </script>
 {% endif %}
 
-// Search Settings
+<!-- Search Settings -->
 <script>
     SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),

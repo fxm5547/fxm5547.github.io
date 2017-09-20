@@ -6,6 +6,8 @@ layout: null
     {
       "title"    : "{{ post.title | escape }}",
       "title-lower"    : "{{ post.title | escape | downcase}}",
+      "title-camel"    : "{{ post.title | escape | camelcase}}",
+      "subtitle-lower"    : "{{ post.subtitle | escape | downcase}}",
       "categories" : "{{ post.categories }}",
       "tags"     : "{{ post.tags | join: ', ' }}",
       "url"      : "{{ site.baseurl }}{{ post.url }}",

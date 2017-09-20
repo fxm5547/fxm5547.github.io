@@ -1,6 +1,6 @@
 # Site settings
 title: fxm5547
-SEOTitle: fxm5547的博客 | fxm5547的个人网站 | fxm5547's blog
+SEOTitle: fxm5547的博客 | fxm5547's blog
 header-img: img/home-bg.jpg
 email: fxm5547@gmail.com
 description: "技术，产品和生活随笔 | 这里是fxm5547的博客，记录所学所想。"
@@ -31,7 +31,7 @@ anchorjs: true                          # if you want to customize anchor. check
 
 # Gems
 # from PR#40, to support local preview for Jekyll 3.0
-gems: [jekyll-paginate, jekyll-admin]
+gems: [jekyll-paginate]
 
 
 
@@ -84,7 +84,7 @@ featured-condition-size: 1              # A tag will be featured if the size of 
 
 # Progressive Web Apps
 chrome-tab-theme-color: "#000000"
-service-worker: false
+service-worker: true
 
 
 
