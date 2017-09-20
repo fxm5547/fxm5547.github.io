@@ -106,6 +106,9 @@
 <!-- PV/UV display -->
 <script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
+<!-- script pointing to jekyll-search.js -->
+<script src="/js/simple-jekyll-search.min.js"></script>
+
 <!-- Service Worker -->
 {% if site.service-worker %}
 <script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
@@ -207,7 +210,7 @@
 
 <!-- Side Catalog -->
 {% if page.catalog %}
-<script type="text/javascript">
+<script>
     function generateCatalog (selector) {
         var P = $('div.post-container'),a,n,t,l,i,c;
         a = P.find('h1,h2,h3,h4,h5,h6');
@@ -251,3 +254,15 @@
     });
 </script>
 {% endif %}
+
+// Search Settings
+<script>
+    SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        json: '/search.json',
+        searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+        noResultsText: 'No results found',
+        fuzzy: true
+    });
+</script>
