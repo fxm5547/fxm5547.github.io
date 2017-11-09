@@ -1,4 +1,4 @@
-- ![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png)[中文翻译](/README.zh.md)
+![cn](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/China.png)[中文](/README.zh.md)
 ## [fxm5547's blog](https://fxm5547.com/)
 ## Usage
 - View[jekyll](https://jekyllrb.com/)
