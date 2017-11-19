@@ -17,10 +17,12 @@ tags:
 ## 基础协作
 ### 代码托管平台
 - **推荐**
-  - 能接受价格并且做好翻墙准备（不翻墙速度略慢）：
+  - GitHub Enterprise
+能接受价格并且做好翻墙准备（不翻墙速度略慢）
  ![图片](https://dn-coding-net-production-pp.qbox.me/2d089e21-efb7-4cc7-ac70-8f769c897e51.png?imageView2/0/h/40)
 [GitHub Enterprise](https://enterprise.github.com/home)
-  - 价格低且访问快的国内平台，分团队版和企业版：
+  - CODING
+价格低且访问快的国内平台，分团队版和企业版：
  ![图片](https://dn-coding-net-production-pp.qbox.me/3808cebd-e422-4e64-ac29-82a2c008fcda.png) 
 [CODING](https://coding.net/register?key=e3766453-1935-4749-a031-08ad1b303cd9)
  ![图片](https://dn-coding-net-production-pp.qbox.me/96d875bb-b8b6-4c73-b7e0-a825f51daac2.png?imageView2/0/h/40)
@@ -36,13 +38,16 @@ tags:
 
 ### 公有云平台
 - **推荐**
-  - 服务丰富，上手快：
+  - 阿里云
+服务丰富，上手快
  ![图片](https://dn-coding-net-production-pp.qbox.me/47d9d4e7-506c-43d2-8f33-6e41ce568239.png?imageView2/0/h/40)
 [阿里云](https://promotion.aliyun.com/ntms/act/ambassador/sharetouser.html?userCode=fg6vgmf0&utm_source=fg6vgmf0)
-  - 云计算领导者：
+  - aws
+云计算领导者
  ![图片](https://dn-coding-net-production-pp.qbox.me/6e98db13-d177-4563-ac33-da59435a6c21.png?imageView2/0/h/40) 
 [aws](https://amazonaws-china.com/cn/)
-  - 中立云服务商（不背靠bat、flag等巨头）：
+  - UCloud
+中立云服务商（不背靠bat、flag等巨头）
  ![图片](https://dn-coding-net-production-pp.qbox.me/fe6977e3-fb8c-4c30-b9b5-c2c61aa578a9.png?imageView2/0/h/40) 
 [UCloud](https://www.ucloud.cn/)
 - 其他
