@@ -42,13 +42,6 @@ plugins: [jekyll-paginate]
 markdown: kramdown
 kramdown:
   input: GFM                            # use Github Flavored Markdown !important
-  extensions:
-    - autolink
-    - footnotes
-    - smart
-  auto_ids: true
-  syntax_highlighter: rouge
-  hard_wrap: true
 
 
 
