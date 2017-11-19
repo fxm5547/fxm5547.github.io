@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "RESTful API 授权签名规范.md"
+title:      "RESTful API 授权签名规范"
 subtitle:   "基于HMAC-SHA1的RESTful API 授权签名方法"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
