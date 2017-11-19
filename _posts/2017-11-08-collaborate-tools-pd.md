@@ -56,7 +56,7 @@ tags:
 ### 团队协作
 - **推荐Worktile**
 ![](https://dn-coding-net-production-pp.qbox.me/aebc46d1-0324-4e5e-a5ab-1c6704df94e5.png?imageView2/1/h/80)
-<https://worktile.com>
+  <https://worktile.com>
   - 消息：成员沟通。
   - 任务：Scrum敏捷看板、燃尽图、Bug和缺陷跟踪。
   - 日历：安排会议和个人日程。
@@ -69,7 +69,7 @@ tags:
 ### 文档协作
 - **推荐石墨文档**
  ![图片](https://dn-coding-net-production-pp.qbox.me/10c6bb07-6988-47f7-b21d-74aaf2b7972a.png?imageView2/1/h/80) 
-<https://shimo.im>
+  <https://shimo.im>
   - 多人实时协作的云端文档和表格
   - BRD、MRD和PRD文档书写
 - 其他
@@ -106,12 +106,6 @@ tags:
 [JetBrains](https://www.jetbrains.com/)
 - 其他
   - Eclipse系列、Visual Studio Code、Sublime Text、Vim、Emacs
-
-### 持续集成
-- **推荐自建Jenkins**
- ![图片](https://dn-coding-net-production-pp.qbox.me/2a076ec3-b89b-4edb-b11d-3a6bd22c936a.png?imageView2/0/h/40) 
-[Jenkins](https://jenkins.io/)
-- iOS项目可使用：<https://flow.ci>
 
 ### App内测托管
 - **推荐fir.im**
@@ -150,10 +144,10 @@ tags:
 - **Web推荐**
   - 百度统计
  ![图片](https://dn-coding-net-production-pp.qbox.me/1e2a47c6-84fb-4799-9f07-a8abb9da2cac.png?imageView2/0/h/40) 
-<https://tongji.baidu.com>
+  <https://tongji.baidu.com>
   - GA
  ![图片](https://dn-coding-net-production-pp.qbox.me/7f88c5e9-3a4b-47c2-a108-80032dd27d71.png?imageView2/0/h/40) 
-<https://analytics.google.com/analytics/web>
+  <https://analytics.google.com/analytics/web>
 - **App推荐**
   - 友盟统计
 - 其他
@@ -166,16 +160,16 @@ tags:
   - GrowingIO
 强于自动采集。
  ![图片](https://dn-coding-net-production-pp.qbox.me/91941c52-96aa-461d-bb2f-ec581b0e06d0.png?imageView2/0/h/40) 
-<https://www.growingio.com>
+  <https://www.growingio.com>
   - 神策数据
 强于数据埋点。
  ![图片](https://dn-coding-net-production-pp.qbox.me/f92083b0-714c-4912-9414-275e073c50ab.png?imageView2/0/h/40) 
-<https://www.sensorsdata.cn>
+  <https://www.sensorsdata.cn>
 
 ### 地理位置服务（地图API）
 - **推荐高德地图**
  ![图片](https://dn-coding-net-production-pp.qbox.me/86aa4ff3-2ede-4acb-99fd-63ce2ed1cc20.png?imageView2/0/h/40) 
-<https://lbs.amap.com>
+  <https://lbs.amap.com>
 - 其他
   - 百度地图开放平台
   - 腾讯地图开放平台
@@ -184,10 +178,10 @@ tags:
 - **推荐**
   - 腾讯云通信IM
 费用低，日活少于10W免费
-<https://cloud.tencent.com/product/im>
+  <https://cloud.tencent.com/product/im>
   - 网易云信
 一对一技术服务，问题可以即时得到解决
-<http://netease.im/im>
+  <http://netease.im/im>
 - 其他
   - 环信
   - 融云
@@ -195,26 +189,26 @@ tags:
 ### 视频点播
 - **推荐**
   - 腾讯云视频点播
-<https://cloud.tencent.com/product/vod>
+  <https://cloud.tencent.com/product/vod>
   - 阿里云视频点播
-<https://www.aliyun.com/product/vod>
+  <https://www.aliyun.com/product/vod>
 
 ### 视频直播
 - **推荐**
   - 七牛云直播
-<https://www.qiniu.com/products/pili>
+  <https://www.qiniu.com/products/pili>
   - 阿里云直播
-<https://www.aliyun.com/product/live>
+  <https://www.aliyun.com/product/live>
   - 腾讯云直播
-<https://cloud.tencent.com/product/LVB>
+  <https://cloud.tencent.com/product/LVB>
 
 ### 短视频服务
 包含客户端SDK和服务端存储与处理
 - **推荐**
   - 七牛云短视频解决方案
-<https://www.qiniu.com/solutions#PLSV>
+  <https://www.qiniu.com/solutions#PLSV>
   - 阿里云短视频解决方案
-<https://www.aliyun.com/solution/media/videosdk>
+  <https://www.aliyun.com/solution/media/videosdk>
 
 ### 持续集成
 - **定制推荐Jenkins**
@@ -224,54 +218,54 @@ tags:
 云服务：<https://www.aliyun.com/product/codepipeline>
 - **iOS推荐在线云服务flow.ci**
  ![图片](https://dn-coding-net-production-pp.qbox.me/7c87b82a-a8db-459a-b8e7-da44265dd168.png?imageView2/0/h/40) 
-<https://flow.ci>
+  <https://flow.ci>
 - **和GitHub集成推荐Travis CI**
  ![图片](https://dn-coding-net-production-pp.qbox.me/cbe6b4e0-09fb-43ec-8f36-931c623bc503.png?imageView2/0/h/40) 
-<https://travis-ci.org>
+  <https://travis-ci.org>
 
 ### API测试
 - **推荐**
   - Postman
 简单易用，通过简易的配置和JavaScript脚本即可实现自动化测试。
-<https://www.getpostman.com>
+  <https://www.getpostman.com>
   - JMeter
 功能强大，功能测试和性能测试皆可，通过Java代码可实现所需功能。
-<http://jmeter.apache.org>
+  <http://jmeter.apache.org>
 
 ### UI自动化测试
 - **App推荐Appium**
-<http://appium.io>
+  <http://appium.io>
 - **Web推荐**
-<http://www.selenium.org>
+  <http://www.selenium.org>
 
 ### Android兼容性测试平台
 - **推荐**
   - 阿里云移动测试平台
 方便和fir.im集成
  ![图片](https://dn-coding-net-production-pp.qbox.me/db0ef193-3f19-4164-898a-c3dbe9d0c8f6.png?imageView2/0/h/40) 
-<https://mqc.aliyun.com>
+  <https://mqc.aliyun.com>
   - 腾讯WeTest
  ![图片](https://dn-coding-net-production-pp.qbox.me/f3615ff3-47a1-4a53-b406-ac4cf97d604c.png?imageView2/0/h/40) 
-<http://wetest.qq.com>
+  <http://wetest.qq.com>
   - 腾讯优测
  ![图片](https://dn-coding-net-production-pp.qbox.me/b0e18e91-392d-489a-8feb-cc577d104327.png?imageView2/0/h/40) 
-<http://utest.qq.com>
+  <http://utest.qq.com>
   - 腾讯GT
-<https://github.com/Tencent/GT>
+  <https://github.com/Tencent/GT>
 GT（随身调）是APP的随身调试平台，利用GT，仅凭一部手机，无需连接电脑，即可对APP进行快速的性能测试(CPU、内存、流量、电量、帧率/流畅度等等)、开发日志的查看、Crash日志查看、网络数据包的抓取、APP内部参数的调试、真机代码耗时统计等。
 
 ### 域名购买与DNS解析
 - **域名购买推荐阿里云（原万网）**
  ![图片](https://dn-coding-net-production-pp.qbox.me/073db3ed-8171-4014-b8f0-c0815c3754c2.png?imageView2/0/h/40) 
-<https://wanwang.aliyun.com>
+  <https://wanwang.aliyun.com>
 - **DNS解析推荐DNSPOD**
  ![图片](https://dn-coding-net-production-pp.qbox.me/51b8c710-3195-4b02-8a8c-8a9a28cc41e1.png?imageView2/0/h/40) 
-<https://www.dnspod.cn>
+  <https://www.dnspod.cn>
 
 ### 本地测试环境搭建共享
 - **推荐Vagrant**
  ![图片](https://dn-coding-net-production-pp.qbox.me/243788e5-d9ce-4967-8368-1332bfe66946.png?imageView2/0/h/40) 
-<https://www.vagrantup.com>
+  <https://www.vagrantup.com>
 - 其他
   - Docker
 
