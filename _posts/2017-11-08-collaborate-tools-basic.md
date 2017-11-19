@@ -17,7 +17,7 @@ tags:
 ### 企业/团队协作平台
 - **推荐Worktile**
 ![](https://dn-coding-net-production-pp.qbox.me/aebc46d1-0324-4e5e-a5ab-1c6704df94e5.png?imageView2/1/h/80)
-https://worktile.com
+<https://worktile.com>
   - 消息：成员沟通（摆脱QQ和微信信息干扰）、集成的服务（微信公众号、持续集成Webhook等）通知、公告助手等。
   - 任务：基于任务看板的方式，按工作流敏捷高效协作。
   - 日历：安排会议和个人日程。
@@ -29,7 +29,7 @@ https://worktile.com
 ### 企业邮箱
 - **推荐腾讯企业邮**
  ![图片](https://dn-coding-net-production-pp.qbox.me/a97f6182-c78b-4f56-88fa-2048cdb4ba62.png?imageView2/1/h/80) 
-https://exmail.qq.com
+<https://exmail.qq.com>
 - 桌面客户端选用官方的[Foxmail](http://www.foxmail.com/)
 - 其他
   - 阿里云企业邮箱、网易企业邮箱、Outlook
@@ -37,7 +37,7 @@ https://exmail.qq.com
 ### 文档协作
 - **推荐石墨文档**
  ![图片](https://dn-coding-net-production-pp.qbox.me/10c6bb07-6988-47f7-b21d-74aaf2b7972a.png?imageView2/1/h/80) 
-https://shimo.im
+<https://shimo.im>
   - 多人实时协作的云端文档和表格
 - 其他
   - 一起写、Office Online
@@ -73,7 +73,7 @@ https://www.jianguoyun.com
 
 - 翻墙工具：[Shadowsocks](https://github.com/shadowsocks)
   - iPhone客户端使用：[Shadowrocket](https://itunes.apple.com/us/app/shadowrocket/id932747118?mt=8)
-  - 稳定可靠的线路上这购买：http://108.61.186.155/ 
+  - 稳定可靠的线路上这购买：<http://108.61.186.155>
 
 - 对外沟通：[QQ轻聊版TIM](https://office.qq.com)
 
@@ -93,7 +93,7 @@ https://www.jianguoyun.com
 
 - 文本编辑：[Notepad++](https://notepad-plus-plus.org/)(Windows)、[Sublime Text](https://www.sublimetext.com/3)(Mac)
 
-- 二维码：http://cli.im
+- 二维码：<http://cli.im>
 
 - 生成随机密码：
-  - http://ucdok.com/project/generate_password.html
+  - <http://ucdok.com/project/generate_password.html>
