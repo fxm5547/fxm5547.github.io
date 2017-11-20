@@ -140,3 +140,6 @@ tags:
 - 接口文档和实现是否完全一致；
 -请求参数的名称、类型、是否可选、描述都必须准确和见名知意；
 - 返回参数的名称、类型、描述都必须准确详尽。
+
+### 修改后的多模块模板
+[点击下载apidoc-template.zip]({{ site.baseurl }}/file/apidoc-template.zip)
