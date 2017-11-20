@@ -8,6 +8,7 @@ header-img: "img/post-bg-2015.jpg"
 catalog: true
 categories:
     - 技术规范
+    - 研发流程
 tags:
     - Git
     - 工作流
