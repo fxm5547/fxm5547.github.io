@@ -200,7 +200,7 @@ Alt + #[0-9]                 | 打开相应的工具窗口
 Ctrl + Shift + F12           | 最大化切换编辑器
 Alt + Shift + F              | 添加到收藏夹
 Alt + Shift + I	             | 检查当前文件与当前概要文件
-Ctrl + BackQuote (`)         | 快速切换当前主题
+Ctrl + BackQuote         | 快速切换当前主题
 Ctrl + Alt + S               | 打开设置对话框
 Ctrl + Tab                   | 在标签和工具窗口间切换
 
