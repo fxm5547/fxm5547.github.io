@@ -97,3 +97,4 @@ tags:
 
 - 生成随机密码：
   - <http://ucdok.com/project/generate_password.html>
+  - <http://passwordsgenerator.net>

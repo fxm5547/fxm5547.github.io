@@ -231,6 +231,10 @@ tags:
   - JMeter
 功能强大，功能测试和性能测试皆可，通过Java代码可实现所需功能。
   <http://jmeter.apache.org>
+  - ApacheBench
+  简单的性能测试，要在内网测试，并使用http而非https测试。
+  <https://httpd.apache.org/docs/2.4/programs/ab.html>
+
 
 #### UI自动化测试
 - **App推荐Appium**
@@ -253,6 +257,7 @@ tags:
   - 腾讯GT
   <https://github.com/Tencent/GT>
 GT（随身调）是APP的随身调试平台，利用GT，仅凭一部手机，无需连接电脑，即可对APP进行快速的性能测试(CPU、内存、流量、电量、帧率/流畅度等等)、开发日志的查看、Crash日志查看、网络数据包的抓取、APP内部参数的调试、真机代码耗时统计等。
+  - Android稳定性测试Monkey
 
 #### 域名购买与DNS解析
 - **域名购买推荐阿里云（原万网）**
