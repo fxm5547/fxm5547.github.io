@@ -1148,7 +1148,7 @@ img::-moz-selection {
   display: block;
   max-width: 100%;
   height: auto;
-  margin: 1.5em auto 1.6em auto;
+  margin: 0.8em auto 0.5em 0;
 }
 /* Hux Optimize UserExperience */
 .navbar-default .navbar-toggle:focus,
