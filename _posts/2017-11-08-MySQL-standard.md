@@ -4,7 +4,7 @@ title:      "MySQL使用规范（初版）"
 subtitle:   "一些MySQL使用时遵循的规范（初版）"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

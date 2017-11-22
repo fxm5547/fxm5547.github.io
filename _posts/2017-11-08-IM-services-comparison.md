@@ -4,7 +4,7 @@ title:      "第三方即时通信IM服务对比分析"
 subtitle:   "第三方即时通信IM服务对比分析"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

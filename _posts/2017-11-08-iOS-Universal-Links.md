@@ -4,7 +4,7 @@ title:      "iOS Universal Links实现方案"
 subtitle:   "iOS Universal Links实现微信内网页跳转至App的方案"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

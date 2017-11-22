@@ -4,7 +4,7 @@ title:      "研发团队如何实施OKR"
 subtitle:   "研发团队如何定义Objectives和Key Results"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 项目管理

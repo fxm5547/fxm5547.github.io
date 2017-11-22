@@ -4,7 +4,7 @@ title:      "Git使用指导"
 subtitle:   "基于Coding代码托管的Git基本使用指导"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

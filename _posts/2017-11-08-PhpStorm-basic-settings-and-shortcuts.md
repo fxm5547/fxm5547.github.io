@@ -4,7 +4,7 @@ title:      "PhpStorm基本配置及常用快捷键"
 subtitle:   "助你提高代码质量及开发效率的PhpStorm基本配置及常用快捷键"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

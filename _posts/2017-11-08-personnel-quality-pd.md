@@ -4,7 +4,7 @@ title:      "产品研发人员素质"
 subtitle:   "产品研发人员应该具备的素质"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 项目管理

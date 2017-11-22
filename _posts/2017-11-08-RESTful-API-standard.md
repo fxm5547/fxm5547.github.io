@@ -4,7 +4,7 @@ title:      "RESTful API规范"
 subtitle:   "RESTful API定义及使用规范"
 date:       2017-11-08 18:42:02
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范

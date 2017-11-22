@@ -4,7 +4,7 @@ title:      "使用SSH key免密码登录服务器"
 subtitle:   "使用SSH RSA key免密码登录Linux服务器"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 工具手册

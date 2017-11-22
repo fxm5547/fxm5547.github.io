@@ -4,7 +4,7 @@ title:      "Shadowsocks翻墙使用手册"
 subtitle:   "Shadowsocks安装配置入门指南"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 工具手册

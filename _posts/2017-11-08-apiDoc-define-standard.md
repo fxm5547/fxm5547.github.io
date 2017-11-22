@@ -4,7 +4,7 @@ title:      "apiDoc定义规范"
 subtitle:   "使用apiDoc书写API文档规范"
 date:       2017-11-08 14:33:00
 author:     "fxm5547"
-header-img: "img/post-bg-2015.jpg"
+header-img: "img/post-bg-default.jpg"
 catalog: true
 categories:
     - 技术规范
