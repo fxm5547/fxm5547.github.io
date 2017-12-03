@@ -77,7 +77,7 @@ open            |一些开放接口，不需要公共参数            |v1
 
 参数 | 是否必须 | 说明及header格式
 :----------- | :----------- | :-----------
-app | 所有接口必须    |请求客户端应用标识，取值`*-ios、*-android、*-pc、*-h5`<br/>header格式：<br/>`X-Co-app: $app`
+app | 所有接口必须    |请求客户端应用标识，取值`*-ios、*-android、*-pc、*-h5`<br/>header格式：<br/>`X-Co-App: $app`
 user_id       |**App登录后所有接口都传**，<br/>Web通过session机制获取 |用户标识<br/>header格式：<br/>`Authorization: CoAPI base64(user_id:token)`
 token         |**App登录后所有接口都传**，<br/>Web通过session机制获取 |授权访问令牌<br/>header格式：<br/>`Authorization: CoAPI base64(user_id:token)`
 
