@@ -121,7 +121,7 @@ admin-android | 管理中心Android版
 HTTP状态码|
 :----------- |
 200 OK - 表示已在响应中发出、资源更改成功（GET、PUT）     |
-201 created - 新资源被创建（POST）            |
+201 Created - 新资源被创建（POST）            |
 204 No Content - 资源被删除（DELETE）            |
 
 **错误**  
