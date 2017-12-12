@@ -100,8 +100,9 @@ admin-android | 管理中心Android版
 - **用于告知服务端是否支持Webp的Cookie：**cookie name是`supportWebp`，取值是1（支持）和0（不支持），未传递时服务端默认取值为0。
 - **Webview植入Session的Cookie：**
 
-#### JWT
+#### JWT & OAuth2
 - [Json Web Token](https://jwt.io)可用于替代session-cookie机制。但会存在一些问题，比如为过期token强制失效问题（用户修改了密码后，无法强制其他的终端token全部失效）。
+- [OAuth2](https://oauth.net/2/)是授权其他开发者访问自己应用有限权限的授权机制。
 
 
 ## 权限
