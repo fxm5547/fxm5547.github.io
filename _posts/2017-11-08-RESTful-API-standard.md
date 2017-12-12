@@ -22,7 +22,7 @@ tags:
 **遵循RESTful设计风格，同时控制复杂度及易于使用，仅遵循大部分原则。**
 **遵循原则：**  
 - 使用https协议
-- 版本号放入URL
+- 版本号放入URL或Header
 - 只提供json返回格式
 - post,put上使用json作为输入
 - 使用http状态码作为错误提示
