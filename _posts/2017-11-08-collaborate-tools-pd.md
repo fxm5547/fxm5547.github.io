@@ -138,7 +138,9 @@ tags:
 - **推荐**
   - 阿里云推送（集成了小米推送和华为推送）：<https://www.aliyun.com/product/cps>
 - 其他
-  - 友盟推送：[https://mobile.umeng.com/push](https://mobile.umeng.com/push)
+
+  - 友盟推送：<https://mobile.umeng.com/push>
+
   - 极光推送：<https://www.jiguang.cn>
 
 #### 免费统计分析
