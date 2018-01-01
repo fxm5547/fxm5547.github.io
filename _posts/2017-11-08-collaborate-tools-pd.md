@@ -128,7 +128,7 @@ tags:
 #### 邮件推送服务
 - **推荐SendCloud**
  ![图片](https://dn-coding-net-production-pp.qbox.me/eae6c194-4594-4afa-8b67-d2ec0c72bb4e.png?imageView2/0/h/40) 
- [sendcloud]<https://sendcloud.sohu.com/>
+ [sendcloud](https://sendcloud.sohu.com/)
 - 其他
   - webpower：<http://www.webpowerchina.com>
   - 阿里云短信推送：<https://www.aliyun.com/product/directmail>
