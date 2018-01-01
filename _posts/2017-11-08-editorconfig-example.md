@@ -13,13 +13,9 @@ tags:
     - editorconfig
 ---
 
-## [.editorconfig](http://editorconfig.org/)文件规范
-editorconfig是一个可以制定统一规范的配置文件，绝大多数代码编辑器都已经支持
+## .editorconfig文件示例
+[.editorconfig](http://editorconfig.org/)是一个可以制定统一规范的配置文件，绝大多数代码编辑器都已经支持。
 
-配置成使用2个空格的缩进
-UTF-8文件编码
-lf文件尾
-新项目直接拷贝以下代码至根目录下.editorconfig文件即可
 
 ```
 # http://editorconfig.org
