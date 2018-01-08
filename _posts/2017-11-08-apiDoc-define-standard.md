@@ -17,7 +17,7 @@ tags:
 
  
 ### 详细阅读apiDoc官方文档
-- 详细阅读官方文档：http://apidocjs.com
+- 详细阅读官方文档：<http://apidocjs.com>
 
 
 ### 项目中apiDoc文件结构

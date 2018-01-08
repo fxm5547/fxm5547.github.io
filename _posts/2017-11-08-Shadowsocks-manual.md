@@ -14,10 +14,10 @@ tags:
 ---
 
 ## 下载shadowsocks客户端
-Windows： 链接: http://pan.baidu.com/s/1pJL0Z8n 密码: jwtc
-Mac OS X：http://dwz.cn/3FwvRR
-Android：http://dwz.cn/3DV3Ei
-iOS：http://dwz.cn/3FwvnF
+Windows： 链接: <http://pan.baidu.com/s/1pJL0Z8n> 密码: jwtc
+Mac OS X：<http://dwz.cn/3FwvRR>
+Android：<http://dwz.cn/3DV3Ei>
+iOS：<http://dwz.cn/3FwvnF>
 
 ## 配置账号（Windows）
 打开shadowsocks客户端之后，按照下图指示扫描下文的二维码（多扫几个，出问题时切换）。
