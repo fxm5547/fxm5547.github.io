@@ -19,11 +19,11 @@ tags:
 为了避免API被非法调用，调用过程中被篡改和重放攻击，需要增加API调用授权。对调用信息进行签名和验签是常用的授权方法。调用双方约定秘钥并内部存放，利用秘钥基于hash算法（常用的有MD5，SHA1和SHA256）通过HMAC运算生产签名signature。
 
 ## 参考
-- http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html
-- https://help.aliyun.com/document_detail/25492.html?spm=5176.doc25489.6.813.MWT9Wx
-- https://help.aliyun.com/document_detail/31951.html?spm=5176.doc31950.6.832.toV9bg
-- http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html
-- https://www.qcloud.com/document/api/377/4214
+- <http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html>
+- <https://help.aliyun.com/document_detail/25492.html?spm=5176.doc25489.6.813.MWT9Wx>
+- <https://help.aliyun.com/document_detail/31951.html?spm=5176.doc31950.6.832.toV9bg>
+- <http://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html>
+- <https://www.qcloud.com/document/api/377/4214>
 
 ## 传递方式
 - 通过header传递，格式：`Authorization: CoAPI-HMAC-SHA1 $sign`
