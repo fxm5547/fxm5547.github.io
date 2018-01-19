@@ -33,7 +33,7 @@ tags:
 ## 面试
 - 算法：<https://github.com/soulmachine/algorithm-essentials>
 - 《编程之美》
-
+- 《剑指offer》
 
 ## 其他
 - 《浪潮之巅》
