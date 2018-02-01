@@ -3,7 +3,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
-    <meta name="keywords"  content="{% for tag in page.tags %}{{ tag }}{% endfor %}, {% if page.title %}{{ page.title }}{% endif %}, {{ site.keyword }}">
+    <meta name="keywords"  content="{% for tag in page.tags %}{{ tag }}, {% endfor %}{% if page.title %}{{ page.title }}{% endif %}, {{ site.keyword }}">
     <meta name="theme-color" content="{{ site.chrome-tab-theme-color }}">
     
     <title>{% if page.title %}{{ page.title }} - {{ site.SEOTitle }}{% else %}{{ site.SEOTitle }}{% endif %}</title>
