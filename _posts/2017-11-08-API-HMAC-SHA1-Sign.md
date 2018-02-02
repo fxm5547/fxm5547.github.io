@@ -53,7 +53,7 @@ CanonicalHeaders = lower("X-Co-App") + ':' + trim(HeaderValue) + "\n"
                    + lower("X-Co-TimeStamp") + ':' + trim(HeaderValue)
 ```
 `lower()`表示转换为小写，`trim()`表示去除前后空格。
-- `CanonicalBody` 表示格式后的Body，可为空。孩宝API的Body都是Json，对Json的第一层元素按照key的字典序排列(PHP的ksort())后，进行以下拼接
+- `CanonicalBody` 表示格式后的Body，可为空。API的Body都是Json，对Json的第一层元素按照key的字典序排列(PHP的ksort())后，进行以下拼接
 ```
 CanonicalBody = (key1=val1&kay2=val2...)
 ```

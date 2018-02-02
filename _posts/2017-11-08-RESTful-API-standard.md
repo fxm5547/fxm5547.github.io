@@ -112,7 +112,7 @@ admin-android | 管理中心Android版
   - `admintoken`：需要管理员登录授权，可通过`header Authorization`和`Cookie CoCPSID`传递；
   - `token || admintoken`：用户登录授权或管理员登录授权都可以；
     ![图片](https://dn-coding-net-production-pp.qbox.me/30d51979-fcb5-42ac-b293-aef05e830d88.png) 
-  - `sign`：需要签名，一般用于服务端内部相互调用，详见[ 孩宝API HMAC-SHA1签名]({% post_url 2017-11-08-API-HMAC-SHA1-Sign %})。
+  - `sign`：需要签名，一般用于服务端内部相互调用，详见[ API HMAC-SHA1签名]({% post_url 2017-11-08-API-HMAC-SHA1-Sign %})。
 
 
 ## 状态码说明
@@ -176,7 +176,7 @@ InternalError |服务异常，请稍后再试 |500 Internal Server Error
 ## 速率限制Rate Limiting
 - 为了防止API被恶意调用，对API调用进行速率限制。
 - 速率限制为每IP每15分钟5000次（dev/qa为10W）调用（15分钟是一个时间窗口）。
-- 限制是针对孩宝所有接口模块一起计算的（Redis key为`APIRL:{IP}`），暂时没有特殊的模块或单个接口（未来可能有）。
+- 限制是针对所有接口模块一起计算的（Redis key为`APIRL:{IP}`），暂时没有特殊的模块或单个接口（未来可能有）。
 - 你可以通过每个接口返回的HTTP headers了解当前速率限制的情况:
   - X-RateLimit-Limit: 每个IP每个时间窗口最大请求数
   - X-RateLimit-Remaining: 当前时间窗口剩余请求数

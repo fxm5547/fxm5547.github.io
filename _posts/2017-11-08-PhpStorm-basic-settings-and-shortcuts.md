@@ -19,11 +19,10 @@ tags:
 
 ## 重要Preference配置
 - **激活服务器**
-> 
-http://jetbrains.tencent.click/
-http://owo.help
-http://idea.imsxm.com/
-http://www.0-php.com:1017
+  - http://jetbrains.tencent.click/
+  - http://owo.help
+  - http://idea.imsxm.com/
+  - http://www.0-php.com:1017
 
 - **安装以下必要插件**
   - Php Inspections (EA Extended)

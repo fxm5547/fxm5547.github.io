@@ -41,6 +41,6 @@ tags:
  ![图片](https://dn-coding-net-production-pp.qbox.me/4045ba66-a93b-4439-9646-eb876938b463.png) 
 
 2. oia.hbtown.com根目录下放置json文件`apple-app-site-association`，放到工程里git管理。
-3. 所有孩宝小镇Web页面的“打开App”的链接都修改为oia.hbtown.com加当前页面的path，并传参scheme，如：
+3. 所有对应Web页面的“打开App”的链接都修改为oia.hbtown.com加当前页面的path，并传参scheme，如：
 
  ![图片](https://dn-coding-net-production-pp.qbox.me/b73b6e6c-09a2-4e64-bbd4-5ed4ccf7650e.png)

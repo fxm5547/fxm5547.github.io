@@ -24,7 +24,7 @@ tags:
 
 ## 介绍
 
-本约束规则适用于孩宝所有后端和前端工程代码。管理工具使用[Coding.net](https://coding.net/user)提供的git托管服务。
+本约束规则适用于所有后端和前端工程代码。管理工具使用[Coding.net](https://coding.net/user)提供的git托管服务。
 
 Git的workflow有多种，各有利弊，无所谓好坏。但团队协作需要有一致的规范，所以请大家务必遵守。
 

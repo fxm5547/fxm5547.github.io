@@ -52,7 +52,7 @@ tags:
 #### Sprint计划会议
 - 每个Sprint都以Sprint计划会议作为开始；
 - **目的：** Scrum团队共同选择和理解在即将到来的Sprint中要完成的工作；
-- **周期：** Sprint周期一般为1周，特殊情况不超过2周；孩宝小镇团队固定为每周四上午，凯迪克图书团队固定为每周一上午；
+- **周期：** Sprint周期一般为1周，特殊情况不超过2周；
 - **时长：** Sprint计划周数 * 2小时内；
 - **成员：** 整个团队；
 - **职责：** Sprint Backlog的需求及优先级来至产品负责人，对Sprint Backlog任务的安排、拆解、细化由Scrum Master完成；
@@ -184,7 +184,7 @@ tags:
   - 提至：任务说明
   - 要求：
     - [apiDoc定义规范]({% post_url 2017-11-08-apiDoc-define-standard %})
-    - [孩宝RESTful API定义及使用规范]({% post_url 2017-11-08-RESTful-API-standard %}) 
+    - [RESTful API定义及使用规范]({% post_url 2017-11-08-RESTful-API-standard %}) 
   - 模板：https://api.baobaobooks.net/docs/account/
 - **版本更新日志**
   - 格式：文档

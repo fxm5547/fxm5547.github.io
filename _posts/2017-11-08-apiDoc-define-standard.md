@@ -73,11 +73,11 @@ tags:
 - `@apiPermission`
   - 接口权限，定义在`apidoc/common.php`，权限分为：
     - `none`：无需任何授权；
-    - `token`：需要孩宝用户登录授权，可通过`header Authorization`和`Cookie HBSID`传递；
-    - `admintoken`：需要孩宝管理员登录授权，可通过`header Authorization`和`Cookie HBCPSID`传递；
-    - `token || admintoken`：孩宝用户登录授权或孩宝管理员登录授权都可以；
+    - `token`：需要用户登录授权，可通过`header Authorization`和`Cookie HBSID`传递；
+    - `admintoken`：需要管理员登录授权，可通过`header Authorization`和`Cookie HBCPSID`传递；
+    - `token || admintoken`：用户登录授权或管理员登录授权都可以；
  ![图片](https://dn-coding-net-production-pp.qbox.me/77264ae7-c1a2-4d35-98a5-a57b61c4046e.png) 
-    - `sign`：需要签名，一般用于服务端相互调用，详见[ 孩宝API HMAC-SHA1签名](https://hbtown.worktile.com/drive/58f07f338341595437be627f/58f07f338341595437be62a9)。
+    - `sign`：需要签名，一般用于服务端相互调用，详见[ API HMAC-SHA1签名](https://hbtown.worktile.com/drive/58f07f338341595437be627f/58f07f338341595437be62a9)。
 
 - `@apiDescription`
   - 尽可能详细说明接口的用途及相关逻辑，如
