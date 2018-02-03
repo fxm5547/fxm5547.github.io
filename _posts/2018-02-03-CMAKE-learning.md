@@ -20,7 +20,7 @@ tags:
 
 ## CMake简介
 - Makefile是类unix环境下的类似于批处理的"脚本"文件。其基本语法是: 目标+依赖+命令，只有在目标文件不存在，或目标比依赖的文件更旧，命令才会被执行。
-- make是用来执行Makefile的.
+- make是用来执行Makefile的。
 - Makefile+make可理解为类unix环境下的项目管理工具，但它太基础了，抽象程度不高，而且在windows下不太友好，于是就有了跨平台项目管理工具CMake， CMake是抽象层次更高的项目管理工具，CMake命令执行的CMakeLists.txt文件，生成Makefile。
 - >CMake is great. don't waste time on other C++ build tools, seriously.
 - CMake是CLion IDE（JetBrains出品）唯一默认支持的构建工具。
@@ -30,7 +30,6 @@ tags:
  ![图片](https://dn-coding-net-production-pp.qbox.me/396d6036-cf32-4f08-9a52-d56773a987af.png?imageView2/0/w/400) 
 - 代码文件都在src目录
 - CMakeLists.txt文件是使用CMake需要编写的唯一文件：
-
 ```
 cmake_minimum_required(VERSION 2.6)
 project(itest)
@@ -51,7 +50,6 @@ set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 ```
 - debug和release是存放编译中间和结果文件夹，cmake.sh是一个执行cmake和make命令的脚本：
-
 ```
 #!/bin/bash
 
