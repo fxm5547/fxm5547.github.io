@@ -30,7 +30,7 @@ tags:
  ![图片](https://dn-coding-net-production-pp.qbox.me/396d6036-cf32-4f08-9a52-d56773a987af.png?imageView2/0/w/400) 
 - 代码文件都在src目录
 - CMakeLists.txt文件是使用CMake需要编写的唯一文件：
-```
+```bash
 cmake_minimum_required(VERSION 2.6)
 project(itest)
 
@@ -50,7 +50,7 @@ set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
 ```
 - debug和release是存放编译中间和结果文件夹，cmake.sh是一个执行cmake和make命令的脚本：
-```
+```bash
 #!/bin/bash
 
 # 父级目录
