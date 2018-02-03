@@ -23,6 +23,21 @@ tags:
   - http://owo.help
   - http://idea.imsxm.com/
   - http://www.0-php.com:1017
+  - **2017.3以上版本**
+    - JetBrains IDE 2017.3以上版本，激活检测机制变成了动态封禁域名，导致大部分域名激活被屏蔽了，可通过本地代理解决：
+    ```
+    #jetbrain activate
+    server {
+        listen       8888;
+        server_name  localhost;
+        location / {
+            proxy_pass http://idea.imsxm.com:80;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+            proxy_set_header X-Forwarded-Port $server_port;
+        }
+    }
+    ```
 
 - **安装以下必要插件**
   - Php Inspections (EA Extended)
