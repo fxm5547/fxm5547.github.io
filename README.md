@@ -4,3 +4,5 @@
 - Usage view [jekyll](https://jekyllrb.com/)
 - Run localhost：`jekyll serve`
 - Deploy to Github，view [GitHub Pages](https://pages.github.com/)，custom domain, CDN and DNS by [Cloudflare](https://www.cloudflare.com/)
+
+Thanks to [Hux](https://github.com/huxpro/huxpro.github.io/)
