@@ -49,6 +49,10 @@ install(DIRECTORY src/ DESTINATION include/itest FILES_MATCHING PATTERN "*.h")
 #set(CMAKE_BUILD_TYPE "Debug")
 set(CMAKE_CXX_FLAGS_DEBUG "$ENV{CXXFLAGS} -O0 -Wall -g -ggdb")
 set(CMAKE_CXX_FLAGS_RELEASE "$ENV{CXXFLAGS} -O3 -Wall")
+
+# 打印信息
+message("system: ${CMAKE_SYSTEM}")
+message("build type: ${CMAKE_BUILD_TYPE}")
 ```
 - debug和release是存放编译中间和结果文件夹，cmake.sh是一个执行cmake和make命令的脚本：
 
