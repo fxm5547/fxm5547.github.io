@@ -65,7 +65,7 @@ cmake $base_dir -DCMAKE_BUILD_TYPE=Debug
 make
 ```
 - 执行`chmod a+x cmake.sh && ./cmake.sh`，完成整个构建过程，生成itest可执行程序
- ![图片](https://dn-coding-net-production-pp.qbox.me/8c21ec72-971d-470d-8736-c05bf0ac7803.png) 
+ ![图片](https://dn-coding-net-production-pp.qbox.me/8c21ec72-971d-470d-8736-c05bf0ac7803.png)
 
 
 
