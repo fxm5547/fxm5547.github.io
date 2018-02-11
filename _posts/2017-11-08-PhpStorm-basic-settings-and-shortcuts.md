@@ -19,6 +19,7 @@ tags:
 
 ## 重要Preference配置
 - **激活服务器**
+  - http://jetbrain.kanter.cn
   - http://jetbrains.tencent.click/
   - http://owo.help
   - http://idea.imsxm.com/
