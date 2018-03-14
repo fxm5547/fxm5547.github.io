@@ -14,28 +14,36 @@ tags:
 ---
 
 ## 建表
+- 使用InnoDB引擎和utf8编码；
+- 下划线命名法命名；
+- 表名一般为复数形式，如users、posts；
+- 定义表的COMMENT；
 
-- 见名知意，表名和字段名以下划线分割
 
-- 注意单复数，如用户表为users，而不是user
+## 建字段
+- 使用utf8编码，需要完全支持UTF-8字符集（如有emoji字符）的字段使用utf8mb4编码；
+- 下划线命名法命名；
+- 主键一般带上类型前缀如`user_id、post_id`，字段类型一般为`bigint unsigned NOT NULL AUTO_INCREMENT`；
+- 定义字段]的COMMENT；
+- 基于性能和代码判断空条件的考虑，所有字段NOT NULL，设置默认值，数值型默认值为`0`，字符类型默认值为空字符串`""`；
+- 数值类型不存在负数时，应该`unsigned`；
+- 不推荐使用enum，推荐使用tinyint或smallint；
+- 时间类型字段推荐使用timestamp类型；
+- 文本数据尽量用varchar存储，非必要不使用text类型；
+- 每张表必须定义两个字段`created_at`（记录生成时间）和`updated_at`（记录最近修改时间）；通过数据库的timestamp字段类型实现，取值由MySQL管理无须代码控制，http://dev.mysql.com/doc/refman/5.6/en/timestamp-initialization.html
+```sql
+ALTER TABLE test ADD COLUMN created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP , 
+ADD COLUMN updated_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;
+```
 
-- 详细定义表、字段和索引的备注
-
-- 编码统一为utf8mb4，不需要存储emoji表情等特殊字符的字段编码可单独改为utf8（varchar utf8建索引的最大长度为255，varchar utf8mb4建索引的最大长度为191），数据链接编码使用utf8mb4
-
-- 字段类型严格定义，需要注意类型、长度、是否为空、无符号（确定不会存储复数的字段加UNSIGNED）等
-
-- 主键一般用bigint、自增，关联表 / 无实际意义表的主键命名为rec_id，其他表的主键要见名知意，如goods_id
-
-- 字段（单字段或多字段）数据不能重复时，一定要定义Unique索引
-
-- 每张表一定要包含两个字段created_at(记录生成时间)和updated_at（记录最近修改时间）；通过数据库的timestamp字段类型实现，无须代码控制，http://dev.mysql.com/doc/refman/5.6/en/timestamp-initialization.html
-`ALTER TABLE test ADD COLUMN created_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP , ADD COLUMN updated_at timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP;`
- ![图片](https://dn-coding-net-production-pp.qbox.me/f22d9c03-fa04-4ff3-812f-db3ea0490bec.png) 
-
-- 基于性能的考虑，所有字段均不能为空，即全部NOT NULL，设置默认值
-
-- 存储开关、选项数据的字段，通常使用tinyint(1)非UNSIGNED类型，通常1为打开；0为关闭，多类型时，从1开始定义
+## 建索引
+- 主键类型一般为`bigint unsigned NOT NULL AUTO_INCREMENT`；
+- 命名：主键以`pk_`开头，唯一索引以`uk_`或`uq_`开头，普通索引以`idx_`开头，一律使用小写格式，以字段名或其缩写以下划线拼接；
+- 字段（单字段或多字段）数据不能重复时，必须要建立Unique索引，使用`INSERT INTO ...  ON DUPLICATE KEY UPDATE ...`完成一些需要两条SQL完成的复杂逻辑；禁止使用`REPLACE ... INTO ...`，它会带来一些问题；
+- 依据最左前缀原则建索引，不要建重复的索引如（cola, colb）和（cola）；
+- 区分度低的字段建立索引无意义，计算区分度公式：`SELECT COUNT(DISTINCT cola)/COUNT(*)`；
+- 建立联合索引时，把区分度高的字段放在前面；
+- 为了性能考虑，不建立外键索引，通过代码逻辑和事务保证数据一致性；
 
 ## SQL / PHQL
 - 程序中，SQL的关键字一定要大写
