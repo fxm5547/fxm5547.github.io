@@ -19,7 +19,8 @@ tags:
 
 
 ## 接口风格
-**遵循RESTful设计风格，同时控制复杂度及易于使用，仅遵循大部分原则。**
+HTTP协议（1.0版和1.1版）的主要设计者、Apache服务器软件的作者之一[Roy Thomas Fielding](https://en.wikipedia.org/wiki/Roy_Fielding)在他的博士[论文](https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm)中首次提出REST， Fielding将他对互联网软件的架构原则，定名为REST，即Representational State Transfer的缩写。 简而言之，RESTful是一种API设计风格：将所有的网络请求抽象为对资源的增删改查操作（即HTTP标准协议的请求动作对URI的操作），以HTTP协议状态码标识响应结果。
+**本文描述遵循RESTful设计风格，同时控制复杂度及易于使用，仅遵循大部分原则。**
 **遵循原则：**  
 - 使用https协议
 - 版本号放入URL或Header
