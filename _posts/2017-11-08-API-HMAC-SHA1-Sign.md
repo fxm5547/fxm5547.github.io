@@ -16,7 +16,7 @@ tags:
 ---
 
 ## 引言
-为了避免API被非法调用，调用过程中被篡改和重放攻击，需要增加API调用授权。对调用信息进行签名和验签是常用的授权方法。调用双方约定秘钥并内部存放，利用秘钥基于hash算法（常用的有MD5，SHA1和SHA256）通过HMAC运算生产签名signature。
+为了避免API被非法调用，调用过程中被篡改和重放攻击，需要增加API调用授权。对调用信息进行签名和验签是常用的授权方法。调用双方约定秘钥并内部存放，利用秘钥基于hash算法（常用的有MD5，SHA1和SHA256，本文使用SHA1进行说明，SHA256可获得更高安全性）通过HMAC运算生产签名signature。
 
 ## 参考
 - <http://docs.aws.amazon.com/general/latest/gr/sigv4_signing.html>
@@ -27,7 +27,10 @@ tags:
 
 ## 传递方式
 - 通过header传递，格式：`Authorization: CoAPI-HMAC-SHA1 $sign`
-- 同时传递header `X-Co-TimeStamp`，格式：`X-Co-TimeStamp: 1493030704`
+- 同时传递调用方标识header `X-Co-App`，格式：`X-Co-App: wechat`
+- 同时传递调用时的时间戳header `X-Co-TimeStamp`，格式：`X-Co-TimeStamp: 1493030704`
+*`X-Co-App`和`X-Co-TimeStamp`中的`Co`为公司、部门或产品体系唯一标识，如`tencent`*
+
 
 ## 签名过程
 ```
