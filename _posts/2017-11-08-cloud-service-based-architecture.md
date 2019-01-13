@@ -19,5 +19,5 @@ tags:
 **云服务将互联网应用开发和运维提升到了一个新的高度，开箱即用、弹性伸缩、稳定可靠、维护简便，同时一些应用中间件的开放，极大降低了开发成本。**
 
 典型的云服务架构：
- ![图片](https://dn-coding-net-production-pp.qbox.me/c17d020e-3366-42e0-b5e8-a2101f09cfee.png) 
+ ![图片](https://coding.net/api/project/182613/files/4610973/imagePreview) 
 [阿里云服务架构](https://www.processon.com/view/link/577200eae4b0991e2f159b5b)
