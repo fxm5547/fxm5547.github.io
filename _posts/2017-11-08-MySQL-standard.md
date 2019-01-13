@@ -24,7 +24,7 @@ tags:
 - 使用utf8编码，需要完全支持UTF-8字符集（如有emoji字符）的字段使用utf8mb4编码；
 - 下划线命名法命名；
 - 主键一般带上类型前缀如`user_id、post_id`，字段类型一般为`bigint unsigned NOT NULL AUTO_INCREMENT`；
-- 定义字段]的COMMENT；
+- 定义字段的COMMENT；
 - 基于性能和代码判断空条件的考虑，所有字段NOT NULL，设置默认值，数值型默认值为`0`，字符类型默认值为空字符串`""`；
 - 数值类型不存在负数时，应该`unsigned`；
 - 不推荐使用enum，推荐使用tinyint或smallint；
