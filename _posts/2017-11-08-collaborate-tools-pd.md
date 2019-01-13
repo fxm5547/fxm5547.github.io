@@ -34,7 +34,7 @@ tags:
   - 习惯GitLab，又不想自己搭建：
     - <https://code.aliyun.com>
 - 其他
-  - [码云](https://gitee.com)
+  - [腾讯云工蜂](https://cloud.tencent.com/product/tgit)
 
 #### 公有云平台
 - **推荐**
@@ -73,7 +73,7 @@ tags:
   - 多人实时协作的云端文档和表格
   - BRD、MRD和PRD文档书写
 - 其他
-  - 一起写、Office Online
+  - 腾讯文档、Office Online
 
 #### 做图协作
 - **推荐ProcessOn**
