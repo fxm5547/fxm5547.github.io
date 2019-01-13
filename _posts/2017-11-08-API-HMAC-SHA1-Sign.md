@@ -29,7 +29,7 @@ tags:
 - 通过header传递，格式：`Authorization: CoAPI-HMAC-SHA1 $sign`
 - 同时传递调用方标识header `X-Co-App`，格式：`X-Co-App: wechat`
 - 同时传递调用时的时间戳header `X-Co-TimeStamp`，格式：`X-Co-TimeStamp: 1493030704`
-*`X-Co-App`和`X-Co-TimeStamp`中的`Co`为公司、部门或产品体系唯一标识，如`tencent`*
+- *`X-Co-App`和`X-Co-TimeStamp`中的`Co`为公司、部门或产品体系唯一标识，如`tencent`*
 
 
 ## 签名过程
