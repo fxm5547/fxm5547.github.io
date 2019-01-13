@@ -61,7 +61,7 @@ tags:
 
 
 ## 模块和版本说明
-接口模块相互对立且有版本管理，**模块名作为APP配置项进行存储，每个模块的版本号version和endpoint在应用初始化时调用api模块信息接口（通过传递客户端应用名称和版本号获取各个API模块的endpoint和version）获取并存储**。  
+接口模块相互对立且有版本管理。  
 - **示例模块及最新版本号：**
 
 模块 | 模块用途 | 最新版本号
@@ -74,6 +74,7 @@ open            |一些开放接口，不需要公共参数            |v1
 ## 公共参数
 #### Headers
 公共请求参数是指每个接口都可能需要传递的参数，公共参数通过header传递。
+*本文中**Co**指公司、部门或产品体系唯一标识，如`tencent`*
 
 参数 | 是否必须 | 说明及header格式
 :----------- | :----------- | :-----------
@@ -88,17 +89,14 @@ token         |**App登录后所有接口都传**，<br/>Web通过session机制�
   - `Mozilla/5.0 (iPhone; CPU iPhone OS 10_3_2 like Mac OS X) AppleWebKit/603.2.4 (KHTML, like Gecko) $app-ios/3.0.0 NetType/WIFI`
 
 - **app取值及释义示例**
+*wechat仅为实例应用名称*
 
 app取值 | 客户端名称【域名】
 :----------- | :----------- 
-admin-pc        | 管理中心PC网页版【admin.url.com】
-admin-h5        | 管理中心手机网页版【admin.url.com】
-admin-ios       | 管理中心iOS版
-admin-android | 管理中心Android版
-
-#### Cookies
-- **用于告知服务端是否支持Webp的Cookie：**cookie name是`supportWebp`，取值是1（支持）和0（不支持），未传递时服务端默认取值为0。
-- **Webview植入Session的Cookie：**
+wechat-pc        | 微信PC网页版【admin.url.com】
+wechat-h5        | 微信手机网页版【admin.url.com】
+wechat-ios       | 微信iOS版
+wechat-android | 微信Android版
 
 #### JWT & OAuth2
 - [Json Web Token](https://jwt.io)可用于替代session-cookie机制。但会存在一些问题，比如为过期token强制失效问题（用户修改了密码后，无法强制其他的终端token全部失效）。
@@ -196,7 +194,8 @@ InternalError |服务异常，请稍后再试 |500 Internal Server Error
 
 
 ## 文档生成工具
-- 生成的工具为apidoc，详细阅读官方文档：http://apidocjs.com
+- apidoc可通过代码注释生产文档，详细阅读官方文档：http://apidocjs.com
+- Swagger是当前最为流行的API管理工具，详细参考：https://swagger.io
 
 
 ## 调用示例
@@ -205,10 +204,3 @@ InternalError |服务异常，请稍后再试 |500 Internal Server Error
 
 - PHP
  ![图片](https://dn-coding-net-production-pp.qbox.me/4542ba49-6522-459c-a50c-4155a1950a60.png) 
-
-
-## API模块信息获取
-- App配置文件中仅存储api模块名，App初始化时请求[获取api模块信息](https://apidev.baobaobooks.net/docs/open/#api-basicGroup-get_basic_apis)，获取各个api模块的信息（endpoint和version）。
-
-## 接口文档参考示例
-**[接口文档参考示例](https://api.haibaotown.net/docs/bookshelf/)**
